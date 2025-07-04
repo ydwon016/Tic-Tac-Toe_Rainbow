@@ -39,6 +39,7 @@ section {
 }
 
 
+/*
 .game--container {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -46,6 +47,30 @@ section {
     margin: 10px auto;
     background-color: #11213a;
     color: #04c0b2;
+}
+*/
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 50px auto;
+    width: 315px;
+    height: 315px;
+    border: 1px solid #ccc;
+
+    /* 배경 이미지 설정 */
+    background-image: url("background.jpg"); /* "background.jpg"를 실제 파일 이름으로 바꾸세요 */
+
+    /* 배경 이미지가 격자 영역을 꽉 채우도록 설정 */
+    background-size: cover;
+
+    /* 배경 이미지가 반복되지 않도록 설정 */
+    background-repeat: no-repeat;
+
+    /* 배경 이미지의 위치를 중앙으로 설정 */
+    background-position: center;
 }
 
 .game--status {
