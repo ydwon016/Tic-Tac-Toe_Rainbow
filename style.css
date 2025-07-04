@@ -15,6 +15,7 @@ section {
     cursor: pointer;
     line-height: 100px;
     font-size: 60px;
+    background-color: rgba(255, 255, 255, 0.2); /* 이 줄을 추가하세요 */
 }
 
 .game--title {
